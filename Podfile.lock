@@ -1,0 +1,33 @@
+PODS:
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - CKMnemonic (0.1.7):
+    - CryptoSwift
+  - CryptoSwift (0.15.0)
+  - secp256k1.swift (0.1.4)
+  - SipHash (1.2.2)
+
+DEPENDENCIES:
+  - BigInt (~> 3.1)
+  - CKMnemonic (~> 0.1)
+  - CryptoSwift (~> 0.15)
+  - secp256k1.swift (~> 0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BigInt
+    - CKMnemonic
+    - CryptoSwift
+    - secp256k1.swift
+    - SipHash
+
+SPEC CHECKSUMS:
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  CKMnemonic: 88e745afffea6f3c719c799d9869a2ea5eb9f08b
+  CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
+  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+
+PODFILE CHECKSUM: 2daae7b2dfc8b2eaaaa5035db6ae537e4a8510e0
+
+COCOAPODS: 1.6.1
