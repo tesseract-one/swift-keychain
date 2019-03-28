@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'Keychain'
+  s.name             = 'TesseractKeychain'
   s.version          = '0.0.1'
   s.summary          = 'Multi-network keychain realization for Swift'
 
@@ -15,7 +15,9 @@ Swift library for working with private keys and signing.
   s.social_media_url = 'https://twitter.com/tesseract_io'
 
   s.ios.deployment_target = '8.0'
-  
+
+  s.module_name = 'Keychain'
+
   s.source_files = 'Sources/Keychain/**/*.swift'
 
   s.dependency 'CKMnemonic', '~> 0.1'

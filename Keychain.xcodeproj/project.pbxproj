@@ -48,7 +48,7 @@
 		927C5974224CEA6600F2AA50 /* EthereumHDNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumHDNode.swift; sourceTree = "<group>"; };
 		927C5975224CEA6600F2AA50 /* EthereumKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumKey.swift; sourceTree = "<group>"; };
 		927C597D224CEE0D00F2AA50 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		927C597F224CF0B200F2AA50 /* Keychain.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Keychain.podspec; sourceTree = "<group>"; };
+		927C597F224CF0B200F2AA50 /* TesseractKeychain.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TesseractKeychain.podspec; sourceTree = "<group>"; };
 		B3A8E9112C63F3E6FCB1373C /* Pods-Keychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keychain.release.xcconfig"; path = "Target Support Files/Pods-Keychain/Pods-Keychain.release.xcconfig"; sourceTree = "<group>"; };
 		D8A92FC5262DC3C9E5209BD4 /* Pods-KeychainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainTests.debug.xcconfig"; path = "Target Support Files/Pods-KeychainTests/Pods-KeychainTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA1A0B754E5BE0C41A887055 /* libPods-KeychainTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeychainTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +87,7 @@
 		927C5947224CE96500F2AA50 = {
 			isa = PBXGroup;
 			children = (
-				927C597F224CF0B200F2AA50 /* Keychain.podspec */,
+				927C597F224CF0B200F2AA50 /* TesseractKeychain.podspec */,
 				927C596C224CE9FC00F2AA50 /* Sources */,
 				927C596D224CEA1300F2AA50 /* Tests */,
 				927C5952224CE96500F2AA50 /* Products */,
