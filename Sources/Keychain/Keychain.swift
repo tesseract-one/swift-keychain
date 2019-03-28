@@ -24,7 +24,7 @@ import CKMnemonic
 
 public class Keychain {
     
-    enum Error: Swift.Error {
+    public enum Error: Swift.Error {
         case networkIsNotSupported(Network)
         case wrongKeyPath
         case dataError
