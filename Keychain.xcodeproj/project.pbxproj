@@ -480,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 509A88FDBCB48AF5D04C278E /* Pods-Keychain.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -506,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3A8E9112C63F3E6FCB1373C /* Pods-Keychain.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
