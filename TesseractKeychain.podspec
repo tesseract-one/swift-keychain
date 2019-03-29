@@ -22,6 +22,6 @@ Swift library for working with private keys and signing.
 
   s.dependency 'MnemonicKit', '~> 1.3.0'
   s.dependency 'BigInt', '~> 3.1'
-  s.dependency 'CryptoSwift', '~> 0.15'
+  s.dependency 'CryptoSwift', '~> 0.13'
   s.dependency 'secp256k1.swift', '~> 0.1'
 end
