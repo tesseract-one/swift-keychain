@@ -20,7 +20,7 @@ Swift library for working with private keys and signing.
 
   s.source_files = 'Sources/Keychain/**/*.swift'
 
-  s.dependency 'CKMnemonic', '~> 0.1'
+  s.dependency 'MnemonicKit', '~> 1.3.0'
   s.dependency 'BigInt', '~> 3.1'
   s.dependency 'CryptoSwift', '~> 0.15'
   s.dependency 'secp256k1.swift', '~> 0.1'
