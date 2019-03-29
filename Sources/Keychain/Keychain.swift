@@ -19,7 +19,7 @@
 //
 
 import Foundation
-import CKMnemonic
+import MnemonicKit
 
 
 public class Keychain {
@@ -46,7 +46,9 @@ public class Keychain {
     }
     
     public static func generateMnemonic() throws -> String {
-         return try CKMnemonic.generateMnemonic(strength: 128, language: .english)
+        let optMnemonic = Mnemonic.generateMnemonic(strength: 128, language: .english)
+        guard let mnemonic = optMnemonic else { throw Error.mnemonicError }
+        return mnemonic
     }
     
     public convenience init(encrypted: Data, password: String) throws {
@@ -98,9 +100,9 @@ public class Keychain {
     }
     
     public static func fromMnemonic(mnemonic: String, password: String) throws -> (keychain: Keychain, encrypted: Data) {
-        let seedStr = try CKMnemonic.deterministicSeedString(from: mnemonic, passphrase: "", language: .english)
-        guard seedStr != "" else { throw Error.mnemonicError }
-        return try fromSeed(seed: seedStr.ck_mnemonicData(), password: password)
+        let optSeedStr = Mnemonic.deterministicSeedString(from: mnemonic, passphrase: "", language: .english)
+        guard let seedStr = optSeedStr, seedStr != "" else { throw Error.mnemonicError }
+        return try fromSeed(seed: seedStr.mnemonicData(), password: password)
     }
     
     public static func changePassword(encrypted: Data, oldPassword: String, newPassword: String) throws -> Data {
